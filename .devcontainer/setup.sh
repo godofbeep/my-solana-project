@@ -10,7 +10,7 @@ source $HOME/.cargo/env
 rustup update
 
 # Install Solana CLI
-sh -c "$(curl -sSfL https://release.solana.com/v1.10.0/install)"
+sh -c "$(curl -sSfL https://release.solana.com/v1.18.15/install)"
 
 # Add the Solana CLI to the PATH
 export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
