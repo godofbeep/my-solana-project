@@ -1,0 +1,14 @@
+{
+    "name": "Solana Lottery Dev Container",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "postCreateCommand": "bash .devcontainer/setup.sh",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "rust-lang.rust",
+          "vadimcn.vscode-lldb",
+          "ms-vscode.cpptools"
+        ]
+      }
+    }
+  }
